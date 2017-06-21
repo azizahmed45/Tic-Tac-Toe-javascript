@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="function.js"></script>
+	</head>
+	<body>
+		<table align="center" width="300px">
+			<tr>
+				<h1 id="p" align="center" style="color: green">Player O's turn<h1>
+			</tr>
+			<tr>
+				<td class="c1" onclick=tap(11);><img src="int.png" height="98px" width="98px" id="11"></td>
+				<td class="c2" onclick=tap(12);><img src="int.png" height="98px" width="98px"id="12"></td>
+				<td class="c1" onclick=tap(13);><img src="int.png" height="98px" width="98px"id="13"></td>
+			</tr>
+			<tr>
+				<td class="c2" onclick=tap(21);><img src="int.png" height="98px" width="98px"id="21"></td>
+				<td class="c1" onclick=tap(22);><img src="int.png" height="98px" width="98px"id="22"></td>
+				<td class="c2" onclick=tap(23);><img src="int.png" height="98px" width="98px"id="23"></td>
+			</tr>
+			<tr>
+				<td class="c1" onclick=tap(31);><img src="int.png" height="98px" width="98px"id="31"></td>
+				<td class="c2" onclick=tap(32);><img src="int.png" height="98px" width="98px"id="32"></td>
+				<td class="c1" onclick=tap(33);><img src="int.png" height="98px" width="98px"id="33"></td>
+			</tr>
+			<tr>
+				<td>
+				</td>
+				<td>
+				</td>
+				<td align="right">
+					<button type="button" onclick=reset();>Reset</button>
+				</td>
+			</tr>
+		<table>
+
+		<h1 id="result" align="center" style="color: red"><h1>
+	</body>
+</html>
